@@ -11,8 +11,7 @@ class LoadStreamlitUI:
     def load_stramlit_ui(self):
         st.set_page_config(
             page_title="🤖 " + self.config.get_page_title(),
-            layout='wide',
-            initial_sidebar_state='expanded'
+            layout='wide'
         )
         st.header("🤖 " + self.config.get_page_title())
 
